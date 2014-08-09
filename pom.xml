@@ -9,7 +9,14 @@
          via importing a project from maven, be sure to set the
          working directory to the top level htsjdk directory -->
 
-    <groupId>org.broadinstitute</groupId>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+        <relativePath />
+    </parent>
+
+    <groupId>com.github.broadinstitute</groupId>
     <artifactId>htsjdk</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
