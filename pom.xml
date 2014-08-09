@@ -69,11 +69,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.google.java.contract</groupId>
+            <groupId>com.github.broadinstitute</groupId>
             <artifactId>cofoja</artifactId>
-            <!-- must be installed to local repo manually from command line like so:
-             mvn install:install-file -Dfile=lib/cofoja/cofoja-1.0-r139.jar -DgroupId=com.google.java.contract -DartifactId=cofoja -Dversion=1.0-r139 -Dpackaging=jar -->
-            <version>1.0-r139</version>
+            <version>1.1-r150</version>
         </dependency>
 
         <dependency>
